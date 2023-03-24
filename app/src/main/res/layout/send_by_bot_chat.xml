@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="#8c8c8c"
+    app:cardBackgroundColor="#454545"
     app:cardCornerRadius="10dp"
     android:layout_marginEnd="80dp"
     android:layout_marginTop="5dp"
@@ -15,12 +15,11 @@
         android:id="@+id/txtBotMassage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Massage send by Bot "
         android:textColor="@color/white"
         android:textSize="18sp"
         android:padding="10dp"
         android:textAlignment="viewStart"
-
+        android:textIsSelectable="true"
         />
 
 </androidx.cardview.widget.CardView>
